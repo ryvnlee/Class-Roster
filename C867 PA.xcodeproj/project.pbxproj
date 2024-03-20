@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D9473F12AF4579F006247C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D9473F02AF4579F006247C0 /* main.cpp */; };
+		2D9473F92AF457E1006247C0 /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D9473F72AF457E1006247C0 /* student.cpp */; };
+		2D9473FC2AF457F0006247C0 /* roster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D9473FA2AF457F0006247C0 /* roster.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,12 @@
 
 /* Begin PBXFileReference section */
 		2D9473ED2AF4579F006247C0 /* C867 PA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C867 PA"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D9473F02AF4579F006247C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2D9473F02AF4579F006247C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "C867 PA/main.cpp"; sourceTree = SOURCE_ROOT; };
+		2D9473F72AF457E1006247C0 /* student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = SOURCE_ROOT; };
+		2D9473F82AF457E1006247C0 /* student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = student.hpp; sourceTree = SOURCE_ROOT; };
+		2D9473FA2AF457F0006247C0 /* roster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roster.cpp; sourceTree = SOURCE_ROOT; };
+		2D9473FB2AF457F0006247C0 /* roster.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = roster.hpp; sourceTree = SOURCE_ROOT; };
+		2D9473FE2AF4581B006247C0 /* degree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = degree.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +64,11 @@
 		2D9473EF2AF4579F006247C0 /* C867 PA */ = {
 			isa = PBXGroup;
 			children = (
+				2D9473FE2AF4581B006247C0 /* degree.h */,
+				2D9473FA2AF457F0006247C0 /* roster.cpp */,
+				2D9473FB2AF457F0006247C0 /* roster.hpp */,
+				2D9473F72AF457E1006247C0 /* student.cpp */,
+				2D9473F82AF457E1006247C0 /* student.hpp */,
 				2D9473F02AF4579F006247C0 /* main.cpp */,
 			);
 			path = "C867 PA";
@@ -120,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9473F12AF4579F006247C0 /* main.cpp in Sources */,
+				2D9473FC2AF457F0006247C0 /* roster.cpp in Sources */,
+				2D9473F92AF457E1006247C0 /* student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
